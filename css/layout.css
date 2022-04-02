@@ -400,7 +400,7 @@
 		margin-right: 0;
 		float: none;
 		width: auto;
-		height: 0px;
+		height: 0;
 		text-align: center;
 		opacity: 0;
 		visibility: hidden;
@@ -594,7 +594,7 @@
 
 
 	.section .title {
-		margin: 0 0 30px 0;
+		margin: 0 0 30px;
 	}
 
 }
@@ -706,7 +706,7 @@
 	font-family: "Roboto";
 	font-weight: 500;
 	text-transform: none;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 }
 
 .section.started.layout-creative .started-content .h-subtitle,
@@ -813,7 +813,7 @@
 
 .section.started .mouse_btn .icon {
 	position: relative;
-	top: 0px;
+	top: 0;
 	animation: mouse-anim 1s ease-out 0s infinite;
 }
 
@@ -1244,7 +1244,7 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 48%;
-	margin: 0 0 6px 0;
+	margin: 0 0 6px;
 }
 
 .info-list ul li strong {
@@ -1279,7 +1279,7 @@
 /* section about mobile */
 @media (max-width: 720px) {
 	.section.about .image {
-		margin: 0 auto 20px auto;
+		margin: 0 auto 20px;
 		float: none;
 		width: 100px;
 		text-align: center;
@@ -1314,7 +1314,7 @@
 
 .resume-items .resume-item {
 	position: relative;
-	margin: 70px 0 0 0;
+	margin: 70px 0 0;
 }
 
 .resume-items .resume-item:first-child {
@@ -1323,14 +1323,14 @@
 
 .resume-items .resume-item .date {
 	position: relative;
-	margin: 0 0 5px 0;
+	margin: 0 0 5px;
 	display: inline-block;
 	font-size: 12px;
 	color: #999;
 }
 
 .resume-items .resume-item .name {
-	margin: 0 0 15px 0;
+	margin: 0 0 15px;
 	color: #eee;
 	font-weight: 500;
 }
@@ -1354,7 +1354,7 @@
 
 
 	.resume-items .resume-item {
-		margin: 40px 0 0 0;
+		margin: 40px 0 0;
 	}
 
 }
@@ -1375,7 +1375,7 @@
 
 /* - Skills */
 .skills ul {
-	margin: -35px 0 0 0;
+	margin: -35px 0 0;
 	padding: 0;
 	list-style: none;
 	font-size: 0;
@@ -1383,7 +1383,7 @@
 
 .skills ul li {
 	position: relative;
-	padding: 35px 0 0 0;
+	padding: 35px 0 0;
 }
 
 .skills ul li:after {
@@ -1395,7 +1395,7 @@
 }
 
 .skills ul li .name {
-	margin: 0 0 10px 0;
+	margin: 0 0 10px;
 	position: relative;
 	font-size: 16px;
 	color: #eee;
@@ -1532,7 +1532,7 @@
 
 .skills.circles ul li {
 	margin-top: 35px;
-	padding: 0 0 60px 0;
+	padding: 0 0 60px;
 	display: inline-block;
 	vertical-align: top;
 	width: 25%;
@@ -1601,7 +1601,7 @@
 	position: absolute;
 	width: 1em;
 	height: 1em;
-	clip: rect(0em, 1em, 1em, 0.5em);
+	clip: rect(0, 1em, 1em, 0.5em);
 }
 
 
@@ -1713,7 +1713,7 @@
 	position: absolute;
 	width: 0.82em;
 	height: 0.82em;
-	clip: rect(0em, 0.5em, 1em, 0em);
+	clip: rect(0, 0.5em, 1em, 0);
 	border: 0.09em solid #4bffa5;
 	transform: rotate(0deg);
 	-webkit-transform: rotate(0deg);
@@ -2651,12 +2651,12 @@
 /* section skills mobile */
 @media (max-width: 720px) {
 	.skills ul {
-		margin: -20px 0 0 0;
+		margin: -20px 0 0;
 	}
 
 
 	.skills ul li {
-		padding: 20px 0 0 0;
+		padding: 20px 0 0;
 	}
 
 
@@ -2684,12 +2684,12 @@
 
 /* - Clients */
 .clients-items {
-	margin: -35px -35px 0 -35px;
+	margin: -35px -35px 0;
 	font-size: 0;
 }
 
 .clients-items .clients-col {
-	padding: 35px 35px 0 35px;
+	padding: 35px 35px 0;
 	display: inline-block;
 	vertical-align: top;
 	width: 25%;
@@ -2727,11 +2727,11 @@
 /* section clients mobile */
 @media (max-width: 720px) {
 	.clients-items {
-		margin: -20px -20px 0 -20px;
+		margin: -20px -20px 0;
 	}
 
 	.clients-items .clients-col {
-		padding: 20px 20px 0 20px;
+		padding: 20px 20px 0;
 		width: 50%;
 	}
 
@@ -2861,13 +2861,13 @@
 	position: relative;
 	margin-left: -50px;
 	margin-right: -50px;
-	font-size: 0px;
+	font-size: 0;
 }
 
 .box-items .box-item {
 	width: 50%;
 	margin: 0;
-	padding: 0 50px 100px 50px;
+	padding: 0 50px 100px;
 	position: relative;
 	text-align: center;
 	font-size: 13px;
@@ -2945,10 +2945,10 @@
 
 .box-items .box-item .image:hover .icon {
 	opacity: 0.6;
-	transform: translateY(0px);
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-o-transform: translateY(0px);
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
 	transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0.35s;
 	-moz-transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0.35s;
 	-webkit-transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0.35s;
@@ -2958,10 +2958,10 @@
 .box-items .box-item .image:hover .desc {
 	top: 0;
 	opacity: 1;
-	transform: translateY(0px);
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-o-transform: translateY(0px);
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
 	transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0.35s;
 	-moz-transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0.35s;
 	-webkit-transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0.35s;
@@ -3032,7 +3032,7 @@
 
 	.box-items .box-item {
 		width: 50%;
-		padding: 0 20px 40px 20px;
+		padding: 0 20px 40px;
 	}
 
 
@@ -3052,7 +3052,7 @@
 
 
 	.details-col {
-		padding: 40px 0 0 0;
+		padding: 40px 0 0;
 		width: 100%;
 	}
 
@@ -3263,13 +3263,13 @@
 }
 
 .team-item .name {
-	margin: 30px 0 5px 0;
+	margin: 30px 0 5px;
 	color: #eee;
 	font-weight: 500;
 }
 
 .team-item .category {
-	margin: 0 0 5px 0;
+	margin: 0 0 5px;
 	position: relative;
 	display: inline-block;
 	color: #999;
@@ -3383,7 +3383,7 @@
 }
 
 .reviews-item .name {
-	margin: 0 0 5px 0;
+	margin: 0 0 5px;
 	color: #eee;
 	font-weight: 500;
 }
@@ -3537,7 +3537,7 @@ iframe, object {
 
 
 .single-post-text figure, .comment-text figure {
-	margin: 0 0 30px 0;
+	margin: 0 0 30px;
 	max-width: 100%;
 }
 
@@ -3668,8 +3668,8 @@ iframe, object {
 	color: #141414;
 	text-transform: uppercase;
 	font-weight: 700;
-	padding: 5px 0 0 0;
-	margin: 0 0 10px 0;
+	padding: 5px 0 0;
+	margin: 0 0 10px;
 }
 
 
@@ -3679,7 +3679,7 @@ iframe, object {
 
 
 .post-comments .form-comment .title {
-	margin: 30px 0 15px 0;
+	margin: 30px 0 15px;
 }
 
 
@@ -3689,12 +3689,12 @@ iframe, object {
 
 
 .post-comment.pingback .desc {
-	margin-left: 0px;
+	margin-left: 0;
 }
 
 
 .post-text-bottom {
-	padding: 25px 0 10px 0;
+	padding: 25px 0 10px;
 }
 
 
@@ -3766,7 +3766,7 @@ iframe, object {
 
 
 .comment-info {
-	padding: 10px 0 5px 0;
+	padding: 10px 0 5px;
 }
 
 
@@ -3812,7 +3812,7 @@ iframe, object {
 
 .section .pager, .page-links, .nav-links {
 	clear: both;
-	padding: 20px 0 60px 0;
+	padding: 20px 0 60px;
 	text-align: center;
 }
 
@@ -3874,7 +3874,7 @@ iframe, object {
 
 @media (max-width: 840px) {
 	.post-comments ul.children {
-		padding: 20px 20px 0 20px;
+		padding: 20px 20px 0;
 	}
 
 
@@ -3901,7 +3901,7 @@ iframe, object {
 
 
 	.post-comments ul.children {
-		padding: 15px 15px 15px 15px;
+		padding: 15px;
 	}
 
 
@@ -4019,7 +4019,7 @@ iframe, object {
 
 .footer p,
 .footer .copy {
-	margin: 2px 0 0 0;
+	margin: 2px 0 0;
 	font-size: 14px;
 	line-height: 2;
 	color: #bbb;
@@ -4169,7 +4169,7 @@ iframe, object {
 
 
 	.home .footer .soc a {
-		margin: 10px 0 0 0;
+		margin: 10px 0 0;
 		display: block;
 	}
 
@@ -4310,7 +4310,7 @@ iframe, object {
 
 
 .content-sidebar .widget .rss-date, .content-sidebar .widget cite {
-	margin: 5px 0 10px 0;
+	margin: 5px 0 10px;
 	padding: 0;
 	display: block;
 	height: 20px;
@@ -4322,7 +4322,7 @@ iframe, object {
 
 
 .content-sidebar .widget cite {
-	margin: 10px 0 0 0;
+	margin: 10px 0 0;
 }
 
 
@@ -4365,7 +4365,7 @@ iframe, object {
 
 .content-sidebar h2.widget-title {
 	padding-bottom: 20px;
-	margin: -26px -25px 25px -25px;
+	margin: -26px -25px 25px;
 	border-bottom: 1px solid #dddddd;
 	padding: 25px 30px;
 	display: block;
@@ -4615,7 +4615,7 @@ iframe, object {
 
 
 .popup-box .category {
-	margin: 0 0 5px 0;
+	margin: 0 0 5px;
 	display: block;
 	font-size: 14px;
 	color: #bbb;
@@ -4623,7 +4623,7 @@ iframe, object {
 
 
 .popup-box .desc h4 {
-	margin: 0 0 15px 0;
+	margin: 0 0 15px;
 	display: block;
 	font-size: 24px;
 	font-weight: 600;
@@ -4793,8 +4793,8 @@ iframe, object {
 
 .video-bg-mask {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 	background: #101010;
@@ -4805,8 +4805,8 @@ iframe, object {
 
 .video-bg-texture {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 	z-index: 2;

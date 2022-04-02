@@ -323,7 +323,7 @@
 		margin-right: 0;
 		float: none;
 		width: auto;
-		height: 0px;
+		height: 0;
 		text-align: center;
 		opacity: 0;
 		visibility: hidden;
@@ -467,7 +467,7 @@
 		padding-right: 30px;
 	}
 	.section .title {
-		margin: 0 0 30px 0;
+		margin: 0 0 30px;
 	}
 }
 
@@ -566,7 +566,7 @@
 				font-family: $default_font;
 				font-weight: 500;
 				text-transform: none;
-				letter-spacing: 0em;
+				letter-spacing: 0;
 			}
 			.h-subtitle,
 			.typed-subtitle,
@@ -668,7 +668,7 @@
 		z-index: 2;
 		.icon {
 			position: relative;
-			top: 0px;
+			top: 0;
 			animation: mouse-anim 1s ease-out 0s infinite;
 		}
 	}
@@ -1014,7 +1014,7 @@
 			display: inline-block;
 			vertical-align: top;
 			width: 48%;
-			margin: 0 0 6px 0;
+			margin: 0 0 6px;
 			strong {
 				font-weight: 400;
 				color: $active_color;
@@ -1045,7 +1045,7 @@
 /* section about mobile */
 @media (max-width: 720px) {
 	.section.about .image {
-		margin: 0 auto 20px auto;
+		margin: 0 auto 20px;
 		float: none;
 		width: 100px;
 		text-align: center;
@@ -1077,19 +1077,19 @@
 .resume-items {
 	.resume-item {
 		position: relative;
-		margin: 70px 0 0 0;
+		margin: 70px 0 0;
 		&:first-child {
 			margin: 0;
 		}
 		.date {
 			position: relative;
-			margin: 0 0 5px 0;
+			margin: 0 0 5px;
 			display: inline-block;
 			font-size: $extra_small_size;
 			color: $extra_color;
 		}
 		.name {
-			margin: 0 0 15px 0;
+			margin: 0 0 15px;
 			color: $light_color;
 			font-weight: 500;
 		}
@@ -1111,7 +1111,7 @@
 		padding-left: 20px;
 	}
 	.resume-items .resume-item {
-		margin: 40px 0 0 0;
+		margin: 40px 0 0;
 	}
 }
 
@@ -1129,13 +1129,13 @@
 /* - Skills */
 .skills {
 	ul {
-		margin: -35px 0 0 0;
+		margin: -35px 0 0;
 		padding: 0;
 		list-style: none;
 		font-size: 0;
 		li {
 			position: relative;
-			padding: 35px 0 0 0;
+			padding: 35px 0 0;
 			&:after {
 				display: none;
 			}
@@ -1143,7 +1143,7 @@
 				padding-bottom: 0;
 			}
 			.name {
-				margin: 0 0 10px 0;
+				margin: 0 0 10px;
 				position: relative;
 				font-size: $default_size;
 				color: $light_color;
@@ -1264,7 +1264,7 @@
 		ul {
 			li {
 				margin-top: 35px;
-				padding: 0 0 60px 0;
+				padding: 0 0 60px;
 				display: inline-block;
 				vertical-align: top;
 				width: 25%;
@@ -1318,7 +1318,7 @@
 						position: absolute;
 						width: 1em;
 						height: 1em;
-						clip: rect(0em, 1em, 1em, 0.5em);
+						clip: rect(0, 1em, 1em, 0.5em);
 					}
 				}
 			}
@@ -1433,7 +1433,7 @@
 	position: absolute;
 	width: 0.82em;
 	height: 0.82em;
-	clip: rect(0em, 0.5em, 1em, 0em);
+	clip: rect(0, 0.5em, 1em, 0);
 	border: 0.09em solid $active_color;
 	@include transform(rotate(0deg));
 	@include border-radius(50%);
@@ -1958,10 +1958,10 @@
 /* section skills mobile */
 @media (max-width: 720px) {
 	.skills ul {
-		margin: -20px 0 0 0;
+		margin: -20px 0 0;
 	}
 	.skills ul li {
-		padding: 20px 0 0 0;
+		padding: 20px 0 0;
 	}
 	.skills.dotted ul li {
 		width: 100%;
@@ -1981,10 +1981,10 @@
 /* - Clients */
 
 .clients-items {
-	margin: -35px -35px 0 -35px;
+	margin: -35px -35px 0;
 	font-size: 0;
 	.clients-col {
-		padding: 35px 35px 0 35px;
+		padding: 35px 35px 0;
 		display: inline-block;
 		vertical-align: top;
 		width: 25%;
@@ -2015,9 +2015,9 @@
 /* section clients mobile */
 @media (max-width: 720px) {
 	.clients-items {
-		margin: -20px -20px 0 -20px;
+		margin: -20px -20px 0;
 		.clients-col {
-			padding: 20px 20px 0 20px;
+			padding: 20px 20px 0;
 			width: 50%;
 		}
 	}
@@ -2121,11 +2121,11 @@
 	position: relative;
 	margin-left: -50px;
 	margin-right: -50px;
-	font-size: 0px;
+	font-size: 0;
 	.box-item {
 		width: 50%;
 		margin: 0;
-		padding: 0 50px 100px 50px;
+		padding: 0 50px 100px;
 		position: relative;
 		text-align: center;
 		font-size: 13px;
@@ -2182,13 +2182,13 @@
 			&:hover {
 				.icon {
 					opacity: 0.6;
-					@include transform(translateY(0px));
+					@include transform(translateY(0));
 					@include transition(all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0.35s);
 				}
 				.desc {
 					top: 0;
 					opacity: 1;
-					@include transform(translateY(0px));
+					@include transform(translateY(0));
 					@include transition(all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0.35s);
 				}
 			}
@@ -2250,7 +2250,7 @@
 	}
 	.box-items .box-item {
 		width: 50%;
-		padding: 0 20px 40px 20px;
+		padding: 0 20px 40px;
 	}
 	.portfolio-cols {
 		display: block;
@@ -2262,7 +2262,7 @@
 		width: 100%;
 	}
 	.details-col {
-		padding: 40px 0 0 0;
+		padding: 40px 0 0;
 		width: 100%;
 	}
 	.section.works .filters label {
@@ -2442,12 +2442,12 @@
 		}
 	}
 	.name {
-		margin: 30px 0 5px 0;
+		margin: 30px 0 5px;
 		color: $light_color;
 		font-weight: 500;
 	}
 	.category {
-		margin: 0 0 5px 0;
+		margin: 0 0 5px;
 		position: relative;
 		display: inline-block;
 		color: $extra_color;
@@ -2543,7 +2543,7 @@
 		margin-left: 85px;
 	}
 	.name {
-		margin: 0 0 5px 0;
+		margin: 0 0 5px;
 		color: $light_color;
 		font-weight: 500;
 	}
@@ -2677,7 +2677,7 @@ iframe, object {
 }
 
 .single-post-text figure, .comment-text figure {
-	margin: 0 0 30px 0;
+	margin: 0 0 30px;
 	max-width: 100%;
 }
 
@@ -2786,8 +2786,8 @@ iframe, object {
 	color: #141414;
 	text-transform: uppercase;
 	font-weight: 700;
-	padding: 5px 0 0 0;
-	margin: 0 0 10px 0;
+	padding: 5px 0 0;
+	margin: 0 0 10px;
 }
 
 .post-comments .post-comment .desc p {
@@ -2795,7 +2795,7 @@ iframe, object {
 }
 
 .post-comments .form-comment .title {
-	margin: 30px 0 15px 0;
+	margin: 30px 0 15px;
 }
 
 .post-comment.pingback .image {
@@ -2803,11 +2803,11 @@ iframe, object {
 }
 
 .post-comment.pingback .desc {
-	margin-left: 0px;
+	margin-left: 0;
 }
 
 .post-text-bottom {
-	padding: 25px 0 10px 0;
+	padding: 25px 0 10px;
 }
 
 .post-text-bottom .share-btn {
@@ -2869,7 +2869,7 @@ iframe, object {
 }
 
 .comment-info {
-	padding: 10px 0 5px 0;
+	padding: 10px 0 5px;
 }
 
 .comment-info span.comment-time {
@@ -2908,7 +2908,7 @@ iframe, object {
 
 .section .pager, .page-links, .nav-links {
 	clear: both;
-	padding: 20px 0 60px 0;
+	padding: 20px 0 60px;
 	text-align: center;
 }
 
@@ -2954,7 +2954,7 @@ iframe, object {
 
 @media (max-width: 840px) {
 	.post-comments ul.children {
-		padding: 20px 20px 0 20px;
+		padding: 20px 20px 0;
 	}
 	.post-comments ul.children ul.children {
 		padding: 20px 0 0 20px;
@@ -2972,7 +2972,7 @@ iframe, object {
 		text-align: left;
 	}
 	.post-comments ul.children {
-		padding: 15px 15px 15px 15px;
+		padding: 15px;
 	}
 	.post-comments ul.children ul.children {
 		padding: 15px 0 0 10px;
@@ -3051,7 +3051,7 @@ iframe, object {
 	}
 	p, 
 	.copy {
-		margin: 2px 0 0 0;
+		margin: 2px 0 0;
 		font-size: $small_size;
 		line-height: 2;
 		color: $default_color;
@@ -3169,7 +3169,7 @@ iframe, object {
 		width: 20px;
 	}
 	.home .footer .soc a {
-		margin: 10px 0 0 0;
+		margin: 10px 0 0;
 		display: block;
 	}
 	.home .footer .soc a .icon {
@@ -3289,7 +3289,7 @@ iframe, object {
 }
 
 .content-sidebar .widget .rss-date, .content-sidebar .widget cite {
-	margin: 5px 0 10px 0;
+	margin: 5px 0 10px;
 	padding: 0;
 	display: block;
 	height: 20px;
@@ -3300,7 +3300,7 @@ iframe, object {
 }
 
 .content-sidebar .widget cite {
-	margin: 10px 0 0 0;
+	margin: 10px 0 0;
 }
 
 .content-sidebar .widget .rssSummary {
@@ -3335,7 +3335,7 @@ iframe, object {
 
 .content-sidebar h2.widget-title {
 	padding-bottom: 20px;
-	margin: -26px -25px 25px -25px;
+	margin: -26px -25px 25px;
 	border-bottom: 1px solid #dddddd;
 	padding: 25px 30px;
 	display: block;
@@ -3538,14 +3538,14 @@ iframe, object {
 }
 
 .popup-box .category {
-	margin: 0 0 5px 0;
+	margin: 0 0 5px;
 	display: block;
 	font-size: $small_size;
 	color: $default_color;
 }
 
 .popup-box .desc h4 {
-	margin: 0 0 15px 0;
+	margin: 0 0 15px;
 	display: block;
 	font-size: $large_size;
 	font-weight: 600;
@@ -3687,8 +3687,8 @@ iframe, object {
 
 .video-bg-mask {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 	background: $default_bg;
@@ -3698,8 +3698,8 @@ iframe, object {
 
 .video-bg-texture {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 	z-index: 2;
